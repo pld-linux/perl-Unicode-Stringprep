@@ -13,16 +13,17 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Unicode/CFAERBER/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Unicode/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	cd19b39c9d3dd7caf6db4b2bf3464a72
 URL:		http://search.cpan.org/dist/Unicode-Stringprep/
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-devel >= 1:5.8.3
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Test-NoWarnings
 BuildRequires:	perl-Unicode-Normalize >= 1
 %endif
+Requires:	perl-Unicode-Normalize >= 1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
