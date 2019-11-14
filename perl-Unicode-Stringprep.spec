@@ -8,13 +8,13 @@
 Summary:	Preparation of Internationalized Strings (RFC 3454)
 Summary(pl.UTF-8):	Tworzenie umiędzynarodowionych łańcuchów znaków (RFC 3454)
 Name:		perl-Unicode-Stringprep
-Version:	1.104
+Version:	1.105
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Unicode/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cd19b39c9d3dd7caf6db4b2bf3464a72
+# Source0-md5:	bf9ffbc387cc12d67a3875be1cd8e105
 URL:		http://search.cpan.org/dist/Unicode-Stringprep/
 BuildRequires:	perl-devel >= 1:5.8.3
 BuildRequires:	rpm-perlprov >= 4.1-13
